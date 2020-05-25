@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="top">
+            <div class="budget">
+                <div class="header">
+                    Available Budget in <span class="month-text">%Month%</span>
+                </div>
+                <div class="budget-value">+10000</div>
+                <div class="income-bar clearfix">
+                    <div class="income-title">Income</div>
+                    <div class="right">
+                        <div class="income-value">+ 0.0</div>
+                        <div class="income-percent">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="expenses-bar clearfix">
+                    <div class="expenses-title">Expense</div>
+                        <div class="right">
+                            <div class="expenses-value">- 0.0</div>
+                            <div class="expenses-percent">99%</div>
+                        </div>
+                </div>   
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="add">
+                <div class="add-container">
+                    <select class="add_type">
+                        <option value="Inc">+</option>
+                        <option value="Exp">-</option>
+                    </select>
+                    <input type="text" class="add_description" placeholder="Add a description">
+                    <input type="number" class="add_value" placeholder="Value">
+                    <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
+                </div>
+            </div>
+
+            <div class="container clearfix">
+
+                <div class="income">
+                    <h3 class="income__title">Income</h3>
+
+                    <div class="income__list">
+<!-- 
+                        <div class="item clearfix" id="income-0">
+                            <div class="item_description">Salary</div>
+                            <div class="right clearfix">
+                                <div class="item_value">+ 1000000000</div>
+                                <div class="delete-item">
+                                    <button class="item__delete--btn">
+                                        <i class="ion-ios-close-outline"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item clearfix" id="income-1">
+                            <div class="item_description">Project</div>
+                            <div class="right clearfix">
+                                <div class="item_value">+ 500</div>
+                                <div class="delete-item">
+                                    <button class="item__delete--btn">
+                                        <i class="ion-ios-close-outline"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="expenses">
+                    <h3 class="expenses__title">Expenses</h3>
+
+                    <div class="expenses__list">
+
+                        <!-- <div class="item clearfix" id="expenses-0">
+                            <div class="item_description">Vacation</div>
+                            <div class="right clearfix">
+                                <div class="item_value">- 400</div>
+                                <div class="item_percentage">20%</div>
+                                <div class="delete-item">
+                                    <button class="item__delete--btn">
+                                        <i class="ion-ios-close-outline"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item clearfix" id="expenses-1">
+                            <div class="item_description">Groceries</div>
+                            <div class="right clearfix">
+                                <div class="item_value">- 200</div>
+                                <div class="item_percentage">30%</div>
+                                <div class="delete-item">
+                                    <button class="item__delete--btn">
+                                        <i class="ion-ios-close-outline"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
